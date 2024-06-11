@@ -1,0 +1,1112 @@
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "display_name": {
+        "value": "Test-01"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "Test-01",
+    "state": "STATE_UNSPECIFIED"
+}
+HTTP/1.1 200 OK
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 10 Jun 2024 17:08:53 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 10 Jun 2024 17:08:54 GMT
+content-length: 498
+x-envoy-upstream-service-time: 177
+server: istio-envoy
+
+{
+    "name": "org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057",
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": {
+        "create_time": "2024-06-10T17:08:54.450709Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-06-10T17:08:54.450706Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 244297702
+    },
+    "display_name": {
+        "value": "Test-01"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "Test-01",
+    "state": "STATE_ACTIVE"
+}
+Request method:	GET
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org%2FTest_Org%2FvideoEncoders%2F0190031f-ce2a-73ae-9f94-315297869057
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 10 Jun 2024 17:08:55 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 10 Jun 2024 17:08:55 GMT
+content-length: 498
+x-envoy-upstream-service-time: 44
+server: istio-envoy
+
+{
+    "name": "org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057",
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": {
+        "create_time": "2024-06-10T17:08:54.450709Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-06-10T17:08:54.450706Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 244297702
+    },
+    "display_name": {
+        "value": "Test-01"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "Test-01",
+    "state": "STATE_ACTIVE"
+}
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057%3Adisable
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 501 Not Implemented
+content-type: application/json
+date: Mon, 10 Jun 2024 17:08:56 GMT
+content-length: 43
+x-envoy-upstream-service-time: 9
+server: istio-envoy
+
+{
+    "code": 12,
+    "message": "Method Not Allowed"
+}
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057%3Areenable
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 501 Not Implemented
+content-type: application/json
+date: Mon, 10 Jun 2024 17:08:57 GMT
+content-length: 43
+x-envoy-upstream-service-time: 11
+server: istio-envoy
+
+{
+    "code": 12,
+    "message": "Method Not Allowed"
+}
+Request method:	PATCH
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057?field_mask=display_name%2Cvendor_encoder_identifier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "display_name": {
+        "value": "Updated DisplayName"
+    },
+    "vendor_encoder_identifier": "Updated EncoderIdentifier"
+}
+HTTP/1.1 200 OK
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 10 Jun 2024 17:08:57 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 10 Jun 2024 17:08:58 GMT
+content-length: 528
+x-envoy-upstream-service-time: 45
+server: istio-envoy
+
+{
+    "name": "org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057",
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": {
+        "create_time": "2024-06-10T17:08:54.450709Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-06-10T17:08:58.275855Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 244297705
+    },
+    "display_name": {
+        "value": "Updated DisplayName"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "Updated EncoderIdentifier",
+    "state": "STATE_ACTIVE"
+}
+Request method:	POST
+Request URI:	https://preprod.1stbet.com/prism/v1/video/videoEncoders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 200 OK
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 10 Jun 2024 17:08:58 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 10 Jun 2024 17:08:59 GMT
+x-envoy-upstream-service-time: 28
+server: istio-envoy
+transfer-encoding: chunked
+
+{
+    "video_encoders": [
+        {
+            "name": "org/Test_Org/videoEncoders/018df861-b56c-71ef-888f-d9387b1da424",
+            "parent": "org/Test_Org/orgUnits/Unit-01",
+            "audit_info": {
+                "create_time": "2024-03-01T04:59:30.775451Z",
+                "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "update_time": "2024-05-02T05:36:00.271135Z",
+                "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "version": 243075798
+            },
+            "display_name": {
+                "value": "Encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "gstp-fll-e1|123",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/XB-Net/videoEncoders/018dfa14-1a40-7089-b6d6-47b581833ff2",
+            "parent": "org/XB-Net/orgUnits/XB-Net_Unit",
+            "audit_info": {
+                "create_time": "2024-03-01T12:53:59.209814Z",
+                "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "update_time": "2024-03-01T12:53:59.209714Z",
+                "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "version": 220351030
+            },
+            "display_name": {
+                "value": "Sample_Encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "Sample_Encoder-01",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/Auto_test/videoEncoders/018dfa17-2413-7064-ac30-b69448a59124",
+            "parent": "org/Auto_test/orgUnits/Auto_Unit",
+            "audit_info": {
+                "create_time": "2024-03-01T12:57:17.080062Z",
+                "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "update_time": "2024-03-01T12:57:17.080060Z",
+                "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+                "version": 220351222
+            },
+            "display_name": {
+                "value": "Encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "gstp-fll-e2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e203e-f298-723a-83e4-591634558bab",
+            "parent": "org/1ST/orgUnits/amtote-GFQPQ",
+            "audit_info": {
+                "create_time": "2024-03-08T22:46:26.543448Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:46:26.543331Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220939489
+            },
+            "display_name": {
+                "value": "Test Encoder FQPQ 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQPQ-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e203f-1247-7305-9f6a-a08264468bc2",
+            "parent": "org/1ST/orgUnits/amtote-GFQPQ",
+            "audit_info": {
+                "create_time": "2024-03-08T22:46:28.231042Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:46:28.231038Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220939541
+            },
+            "display_name": {
+                "value": "Test Encoder FQPQ 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQPQ-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e203f-1446-77e4-ba9b-219fc22814d7",
+            "parent": "org/1ST/orgUnits/amtote-GFQPQ",
+            "audit_info": {
+                "create_time": "2024-03-08T22:46:28.741672Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:46:28.741669Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220939552
+            },
+            "display_name": {
+                "value": "Test Encoder FQPQ 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQPQ-VSS-E3",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e203f-15dc-770a-82b9-64b8e4d37784",
+            "parent": "org/1ST/orgUnits/amtote-GFQPQ",
+            "audit_info": {
+                "create_time": "2024-03-08T22:46:29.146045Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:46:29.146042Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220939563
+            },
+            "display_name": {
+                "value": "Test Encoder FQPQ 4"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQPQ-VSS-E4",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e203f-1712-77d8-acb9-a69d05cc5949",
+            "parent": "org/1ST/orgUnits/amtote-GFQPQ",
+            "audit_info": {
+                "create_time": "2024-03-08T22:46:29.456493Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:46:29.456490Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220939572
+            },
+            "display_name": {
+                "value": "Test Encoder FQPQ 5"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQPQ-VSS-E5",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2040-af5f-7251-8918-dab5399fbc01",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:19.982747Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:48:19.982744Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220941223
+            },
+            "display_name": {
+                "value": "Test Encoder DGKI 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DGKI-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2040-caea-71fa-ae6c-a927416436ea",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:21.032779Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:48:21.032771Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220941250
+            },
+            "display_name": {
+                "value": "Test Encoder DGKI 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DGKI-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2040-cc21-770e-ba9a-cd80729f7c37",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:21.345210Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:48:21.345208Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220941260
+            },
+            "display_name": {
+                "value": "Test Encoder DGKI 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DGKI-VSS-E3",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2040-cd53-7436-a88b-d864beec4a21",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:21.649402Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:48:21.649399Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220941272
+            },
+            "display_name": {
+                "value": "Test Encoder DGKI 4"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DGKI-VSS-E4",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2040-ce7f-75b5-b4c7-47acde400b88",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:21.949009Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:48:21.949006Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220941281
+            },
+            "display_name": {
+                "value": "Test Encoder DGKI 5"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DGKI-VSS-E5",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2041-0bc3-732f-9e4c-4fcdf35cb51d",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:48:39.158019Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:48:39.158014Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220941473
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "PJBB-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2041-9054-77f6-88ed-3e40cfb1f898",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:49:12.905361Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:49:12.905356Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220941892
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "MYET-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2042-1657-72e6-adbb-5f3da76186c1",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:49:47.426144Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:49:47.426141Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942086
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "AJEF-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2042-9377-7083-8959-86d00dac9d9f",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:50:17.853122Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:50:17.853106Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942199
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "CPTG-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2042-e960-766b-a430-d892006d1e88",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:50:41.242278Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:50:41.242273Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942347
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "JLQS-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2043-4d25-75d3-a15e-03e3adc4a00c",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:51:06.868845Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:51:06.868840Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942465
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "YCET-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2043-8715-7168-98f5-f31c6fd2074c",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:51:21.798965Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:51:21.798961Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942574
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FKGL-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2043-f8dd-75fb-9722-198a847d76cb",
+            "parent": "org/1ST/orgUnits/amtote-ADGKI",
+            "audit_info": {
+                "create_time": "2024-03-08T22:51:49.348122Z",
+                "created_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "update_time": "2024-03-08T22:51:49.348118Z",
+                "updated_by": "org/1ST/users/018e2040-7692-70d0-bef6-e81b2fd95e0b",
+                "version": 220942643
+            },
+            "display_name": {
+                "value": "DisplayName"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "YTAW-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2044-f6cf-77c8-ab10-805b9a77f9dd",
+            "parent": "org/1ST/orgUnits/amtote-ULXBC",
+            "audit_info": {
+                "create_time": "2024-03-08T22:53:00.650379Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:53:00.650377Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943247
+            },
+            "display_name": {
+                "value": "Test Encoder LXBC 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "LXBC-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2045-1323-7789-bbca-616d043e0136",
+            "parent": "org/1ST/orgUnits/amtote-ULXBC",
+            "audit_info": {
+                "create_time": "2024-03-08T22:53:01.664881Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:53:01.664878Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943267
+            },
+            "display_name": {
+                "value": "Test Encoder LXBC 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "LXBC-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2045-144e-70c4-9a0e-5881cd1fc0b1",
+            "parent": "org/1ST/orgUnits/amtote-ULXBC",
+            "audit_info": {
+                "create_time": "2024-03-08T22:53:01.965130Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:53:01.965128Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943277
+            },
+            "display_name": {
+                "value": "Test Encoder LXBC 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "LXBC-VSS-E3",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2045-1578-77ce-be1c-9fe5f87e051e",
+            "parent": "org/1ST/orgUnits/amtote-ULXBC",
+            "audit_info": {
+                "create_time": "2024-03-08T22:53:02.260891Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:53:02.260889Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943285
+            },
+            "display_name": {
+                "value": "Test Encoder LXBC 4"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "LXBC-VSS-E4",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2045-16b2-73e0-93ee-7f80fe28a66d",
+            "parent": "org/1ST/orgUnits/amtote-ULXBC",
+            "audit_info": {
+                "create_time": "2024-03-08T22:53:02.574883Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:53:02.574881Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943294
+            },
+            "display_name": {
+                "value": "Test Encoder LXBC 5"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "LXBC-VSS-E5",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2046-002e-7753-b8cb-a30a0aee07d7",
+            "parent": "org/1ST/orgUnits/amtote-XBFOS",
+            "audit_info": {
+                "create_time": "2024-03-08T22:54:09.259694Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:54:09.259691Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943915
+            },
+            "display_name": {
+                "value": "Test Encoder BFOS 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BFOS-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2046-1fe4-723a-8b51-435919570499",
+            "parent": "org/1ST/orgUnits/amtote-XBFOS",
+            "audit_info": {
+                "create_time": "2024-03-08T22:54:10.465971Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:54:10.465968Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943922
+            },
+            "display_name": {
+                "value": "Test Encoder BFOS 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BFOS-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2046-210f-7565-8e8d-88aac87e4db0",
+            "parent": "org/1ST/orgUnits/amtote-XBFOS",
+            "audit_info": {
+                "create_time": "2024-03-08T22:54:10.767959Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:54:10.767957Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943924
+            },
+            "display_name": {
+                "value": "Test Encoder BFOS 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BFOS-VSS-E3",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2046-223e-7732-8909-7acba2363427",
+            "parent": "org/1ST/orgUnits/amtote-XBFOS",
+            "audit_info": {
+                "create_time": "2024-03-08T22:54:11.067642Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:54:11.067640Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943926
+            },
+            "display_name": {
+                "value": "Test Encoder BFOS 4"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BFOS-VSS-E4",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2046-2364-71dc-bc88-3486452fb1bc",
+            "parent": "org/1ST/orgUnits/amtote-XBFOS",
+            "audit_info": {
+                "create_time": "2024-03-08T22:54:11.362083Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:54:11.362081Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220943928
+            },
+            "display_name": {
+                "value": "Test Encoder BFOS 5"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BFOS-VSS-E5",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-19ff-709d-bd43-ae59d937d2d7",
+            "parent": "org/1ST/orgUnits/amtote-GDBRX",
+            "audit_info": {
+                "create_time": "2024-03-08T22:58:31.042805Z",
+                "created_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "update_time": "2024-03-08T22:58:31.042804Z",
+                "updated_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "version": 220945948
+            },
+            "display_name": {
+                "value": "test-encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FYZH-FLL-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-2279-7384-8049-7087db2b934b",
+            "parent": "org/1ST/orgUnits/amtote-GDBRX",
+            "audit_info": {
+                "create_time": "2024-03-08T22:58:34.638556Z",
+                "created_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "update_time": "2024-03-08T22:58:36.319668Z",
+                "updated_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "version": 220946015
+            },
+            "display_name": {
+                "value": "test-encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "QMUP-FLL-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-2f77-7713-815c-b8ac2d6ad733",
+            "parent": "org/1ST/orgUnits/amtote-GDBRX",
+            "audit_info": {
+                "create_time": "2024-03-08T22:58:36.540011Z",
+                "created_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "update_time": "2024-03-08T22:58:37.865348Z",
+                "updated_by": "org/1ST/users/018e2049-da0c-707c-9144-09e830dcb47b",
+                "version": 220946030
+            },
+            "display_name": {
+                "value": "new-test-encoder"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BWAI-FLL-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-7712-7303-880d-2052aefde351",
+            "parent": "org/1ST/orgUnits/amtote-MDQGG",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:03.147415Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:59:03.147412Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220946330
+            },
+            "display_name": {
+                "value": "Test Encoder DQGG 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DQGG-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-9a51-733f-85e6-45efc347cbf6",
+            "parent": "org/1ST/orgUnits/amtote-MDQGG",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:03.952404Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:59:03.952401Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220946349
+            },
+            "display_name": {
+                "value": "Test Encoder DQGG 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DQGG-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-9b7e-7551-b85f-ae634c58479b",
+            "parent": "org/1ST/orgUnits/amtote-MDQGG",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:04.252648Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:59:04.252646Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220946353
+            },
+            "display_name": {
+                "value": "Test Encoder DQGG 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DQGG-VSS-E3",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-9cab-7475-a4a6-b56ee0282136",
+            "parent": "org/1ST/orgUnits/amtote-MDQGG",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:04.552188Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:59:04.552185Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220946360
+            },
+            "display_name": {
+                "value": "Test Encoder DQGG 4"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DQGG-VSS-E4",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204a-9dd0-7391-9ef3-7779bfc1b292",
+            "parent": "org/1ST/orgUnits/amtote-MDQGG",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:04.845241Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-08T22:59:04.845238Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 220946367
+            },
+            "display_name": {
+                "value": "Test Encoder DQGG 5"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "DQGG-VSS-E5",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-6ad0-71f3-b0fd-36b5a92dbe73",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T22:59:57.268332Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T22:59:57.268332Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220946847
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-FQVI"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "FQVI-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-864a-7689-a5a2-32e4793acba5",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:04.306860Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:04.306858Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220946874
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-QCPA"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "QCPA-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-9e23-7555-9887-d8fae694aaac",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:10.409331Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:10.409329Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220946901
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-RWCN"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "RWCN-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-acd8-70a9-af2c-96f7351c74ec",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:14.175797Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:14.175795Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220946920
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-EYGJ"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "EYGJ-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-b9c2-72a5-bdb3-7468d94c863a",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:18.178201Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:18.178198Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220946948
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-CZZT"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "CZZT-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-e18d-71e6-b917-c3df462d7611",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:27.666108Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:27.666107Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220947021
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-HEFT"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "HEFT-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204b-f6d0-75fc-8f4a-eeb56ba78c54",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:34.397522Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:34.397508Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220947067
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-SYUJ"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "SYUJ-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e204c-0ed8-717e-926d-9e0e372721cc",
+            "parent": "org/1ST/orgUnits/amtote-BFONF",
+            "audit_info": {
+                "create_time": "2024-03-08T23:00:39.264616Z",
+                "created_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "update_time": "2024-03-08T23:00:39.264615Z",
+                "updated_by": "org/1ST/users/018e204b-311e-755e-936d-1c37dad36111",
+                "version": 220947089
+            },
+            "display_name": {
+                "value": "ENCODER-DISPLAY-NAME-BOMT"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "BOMT-DCR-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2e5a-a5a8-757e-bd22-869960a6e41c",
+            "parent": "org/1ST/orgUnits/amtote-ZQDGS",
+            "audit_info": {
+                "create_time": "2024-03-11T16:31:30.536746Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-11T16:31:30.536402Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 221735775
+            },
+            "display_name": {
+                "value": "Test Encoder QDGS 1"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "QDGS-VSS-E1",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2e5a-e1f0-76c7-ade3-9ff820d4ff33",
+            "parent": "org/1ST/orgUnits/amtote-ZQDGS",
+            "audit_info": {
+                "create_time": "2024-03-11T16:31:31.883739Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-11T16:31:31.883735Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 221735789
+            },
+            "display_name": {
+                "value": "Test Encoder QDGS 2"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "QDGS-VSS-E2",
+            "state": "STATE_ACTIVE"
+        },
+        {
+            "name": "org/1ST/videoEncoders/018e2e5a-e30b-7249-98b0-092f3e4cc29b",
+            "parent": "org/1ST/orgUnits/amtote-ZQDGS",
+            "audit_info": {
+                "create_time": "2024-03-11T16:31:32.165319Z",
+                "created_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "update_time": "2024-03-11T16:31:32.165317Z",
+                "updated_by": "org/1ST/authorizedClients/4524e592-684c-4cdb-bfec-4f825e7c4ea6",
+                "version": 221735796
+            },
+            "display_name": {
+                "value": "Test Encoder QDGS 3"
+            },
+            "vendor": "VENDOR_LTN",
+            "vendor_encoder_identifier": "QDGS-VSS-E3",
+            "state": "STATE_ACTIVE"
+        }
+    ],
+    "paging_info": {
+        "next_page_token": "haZGaWx0ZXKRh6ROYW1lkKZQYXJlbnSQq0Rpc3BsYXlOYW1lkKNPcmeQt1ZlbmRvckVuY29kZXJJZGVudGlmaWVykKZWZW5kb3KQpVN0YXRlkKpHZXRPcHRpb25zgqdPcmRlckJ5kKdJbmNsdWRlkK1QYWdpbmdPcHRpb25zh6pNYXhSZXN1bHRzMqZPZmZzZXTAqVBhZ2VUb2tlbqtQZXJtaXNzaW9uc8CrQWxsb3dlZFdoZW4ArkluY2x1ZGVTdW1tYXJ5wq1Ta2lwUGFnZVRva2VuwrFUb3RhbFJlc3VsdHNDb3VudMCnRmlsdGVyMpHZJDAxOGUyZTVhLWUzMGItNzI0OS05OGIwLTA5MmYzZTRjYzI5Yg=="
+    }
+}
+Request method:	DELETE
+Request URI:	https://preprod.1stbet.com/prism/v1/video/org%2FTest_Org%2FvideoEncoders%2F0190031f-ce2a-73ae-9f94-315297869057
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057
+Headers:		accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkYxRTM0MENCNjZCNEFENTgyQTYwNjcyMTRDN0M2MTM0IiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ByZXByb2QuMXN0YmV0LmNvbS9wcmlzbS9hdXRoIiwibmJmIjoxNzE4MDM2NTc4LCJpYXQiOjE3MTgwMzY1NzgsImV4cCI6MTcxODA0NzM3OCwiYXVkIjoiaHR0cHM6Ly9wcmlzbS4xc3QuY29tIiwic2NvcGUiOlsib3BlbmFwaSIsIm9wZW5pZCIsInByb2ZpbGUiLCJwcmlzbSJdLCJhbXIiOlsicHdkIl0sImNsaWVudF9pZCI6Im9yZy8xU1QvYXV0aG9yaXplZENsaWVudHMvMTExMTExMTEtMTExMS0xMTExLTExMTEtMTExMTExMTExMTExIiwic3ViIjoib3JnLzFTVC91c2Vycy8xMTExMTExMS0xMTExLTExMTEtMTExMS0xMTExMTExMTExMTEiLCJhdXRoX3RpbWUiOjE3MTgwMjQ3NjEsImlkcCI6ImxvY2FsIiwic2lkIjoiMzYwRDhEMEQ0RDJBQjYwOEQyRTM0Mjc3OEM3NEIzQTkiLCJqdGkiOiI2MkEzRjgxNDgwOEU0QjdBN0Q5OUVFODMxNzBERTc5RiJ9.l8v_iQ1R52iDkPh8N5nqtiEd2D2b7vYPVw-IIc6Je7LhIQDGq7fXfmDMrCssmG6jJfsnizYopN3sHHagh3Je58iGrMNNDr9ViBhb9LbSvNz2gouA2lFCg9U2C4yHiAoa1mc609DAX5BOfE3wQWT1HO-nM5YJ-_64XmW4706hjdwX_54WPoX1gc9j1kyMDv2fzeKgeykuLCJaD62M5tkeLgzWAvUDHLd7gfmEORJ0voYC3mcYGfixgtfnrxNtoZgoQsrFAezujNdO_JpkpdDqgm23IUymoGfaI-LVtCcN0ai2NGBrQJ2_cGkZEYuYl81wJYD-73FNWvlM5CZHbCNJfA
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-type: application/json
+grpc-metadata-content-type: application/grpc
+grpc-metadata-date: Mon, 10 Jun 2024 17:09:00 GMT
+grpc-metadata-server: Kestrel
+date: Mon, 10 Jun 2024 17:09:00 GMT
+content-length: 528
+x-envoy-upstream-service-time: 129
+server: istio-envoy
+
+{
+    "name": "org/Test_Org/videoEncoders/0190031f-ce2a-73ae-9f94-315297869057",
+    "parent": "org/Test_Org/orgUnits/Unit-01",
+    "audit_info": {
+        "create_time": "2024-06-10T17:08:54.450709Z",
+        "created_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "update_time": "2024-06-10T17:08:58.275855Z",
+        "updated_by": "org/1ST/users/11111111-1111-1111-1111-111111111111",
+        "version": 244297705
+    },
+    "display_name": {
+        "value": "Updated DisplayName"
+    },
+    "vendor": "VENDOR_LTN",
+    "vendor_encoder_identifier": "Updated EncoderIdentifier",
+    "state": "STATE_ACTIVE"
+}
